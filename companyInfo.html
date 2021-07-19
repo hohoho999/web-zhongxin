@@ -577,21 +577,27 @@
         function getText(p){
             var text = ''
             if(p == 1){
+                $(".inside-nav li").eq(0).addClass("active").siblings().removeClass("active")
                 text = '基本信息'
             }
             if(p == 2){
+                $(".inside-nav li").eq(1).addClass("active").siblings().removeClass("active")
                 text = '年度信息'
             }
             if(p == 3){
+                $(".inside-nav li").eq(2).addClass("active").siblings().removeClass("active")
                 text = '专项信息'
             }
             if(p == 4){
+                $(".inside-nav li").eq(3).addClass("active").siblings().removeClass("active")
                 text = '重大事项'
             }
             if(p == 5){
+                $(".inside-nav li").eq(4).addClass("active").siblings().removeClass("active")
                 text = '其他信息'
             }
             if(p == 6){
+                $(".inside-nav li").eq(1).addClass("active").siblings().removeClass("active")
                 text = '基本信息'
             }
             return text
